@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://neondb_owner:npg_Bgyl5ZY6aQHX@ep-summer-voice-a44gmp6q-pooler.us-east-1.aws.neon.tech/neondb?sslmode=require
+    username: neondb_owner
+    password: npg_Bgyl5ZY6aQHX
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  batch:
+    initialize-schema: always
