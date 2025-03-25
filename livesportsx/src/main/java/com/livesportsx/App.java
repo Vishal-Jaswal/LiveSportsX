@@ -1,4 +1,4 @@
-package com.livesportsx.livesportsx;
+package com.livesportsx;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
